@@ -1,0 +1,6 @@
+a, b, c, d = int(input()), int(input()), int(input()), int(input())
+n = abs(b - a) + abs(b - c) + abs(b - d)
+v = abs(a - b) + abs(a - c) + abs(a - d)
+p = abs(c - a) + abs(c - b) + abs(c - d)
+s = abs(d - a) + abs(d - b) + abs(d - c)
+print(min(n, v, p, s))
